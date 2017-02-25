@@ -1,6 +1,6 @@
 README
 
-This software create by Drivn.(elbanic12@naver.com)
+This software create by elbanic.(elbanic12@naver.com)
 
 It use pygame, OpenGL, and python.
 
