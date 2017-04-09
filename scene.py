@@ -75,8 +75,8 @@ class Scene:
     def loadTex(self):
 
         self.sun.loadTex('Sun.bmp')
-        self.earth.loadTex('Earth2.bmp')
-        self.moon.loadTex('Moon2.bmp')
+        self.earth.loadTex('Earth.bmp')
+        self.moon.loadTex('Moon.bmp')
         self.jupiter.loadTex('Jupiter.jpg')
         self.background.loadTex('stars_milkyway.jpg')
         #self.loadInfoTex()
@@ -136,11 +136,15 @@ class Scene:
         # stop moving
         if self.stopFlag == True:
             self.day = self.day + self.speed
+            # if self.day > 365:
+            #     self.day = 0.0
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         glLoadIdentity()
 
         glTranslatef(self.xpos, self.ypos, self.xpos)
+
+        #self.draw_info()
 
         glPushMatrix()
 
@@ -149,6 +153,32 @@ class Scene:
         glRotatef(self.xrot,1.0,0.0,0.0)            # Rotate The Cube On It's X Axis
         glRotatef(self.yrot,0.0,1.0,0.0)            # Rotate The Cube On It's Y Axis
         glRotatef(self.zrot,0.0,0.0,1.0)            # Rotate The Cube On It's Z Axis
+
+    #    glPushMatrix()
+    #    glDisable(GL_LIGHTING)
+        #y axis
+    #    glLineWidth(3.0)
+    #    glColor3f(0.0,1.0,0.0)
+    #    glBegin(GL_LINE_STRIP)
+    #    glVertex3f(0.0, 0.0, 0.0)
+    #    glVertex3f(0.0, 50.0, 0.0)
+    #    glEnd()
+
+        #x axis
+    #    glColor3f(1.0,0.0,0.0)
+    #    glBegin(GL_LINE_STRIP)
+    #    glVertex3f(0.0, 0.0, 0.0)
+    #    glVertex3f(50.0, 0.0, 0.0)
+    #    glEnd()
+
+        #z axis
+    #    glColor3f(0.0,0.0,1.0)
+    #    glBegin(GL_LINE_STRIP)
+    #    glVertex3f(0.0, 0.0, 0.0)
+    #    glVertex3f(0.0, 0.0, 50.0)
+    #    glEnd()
+    #    glEnable(GL_LIGHTING)
+    #    glPopMatrix()
 
         self.background.draw(self.quadratic)
         sun_coord = [0.0, 0.0, 0.0]

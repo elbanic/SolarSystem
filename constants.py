@@ -134,23 +134,3 @@ COLOR_TABLE = [DimGray, Gray, LightGray, VLightGray, Aquamarine,
                NewMidnightBlue, VeryDarkBrown, DarkBrown, DarkTan, GreenCopper,
                DkGreenCopper, DustyRose, HuntersGreen, Scarlet, Med_Purple,
                Light_Purple, Very_Light_Purple]
-
-
-
-WIN_SIZE_W = 860
-WIN_SIZE_H = 640
-CENTER_X = 0.0
-CENTER_Y = 0.0
-CENTER_Z = 0.0
-LEFT, RIGHT = 1, 2
-VIEW_MAX = 80
-PI = 3.141592
-ACCEL = 0.01
-
-PaleGreen = [0.560784, 0.737255, 0.560784]
-Pink = [0.737255, 0.560784, 0.560784]
-Plum = [0.917647, 0.678431, 0.917647]
-SteelBlue = [0.137255, 0.419608, 0.556863]
-VioletRed = [0.8, 0.196078, 0.6]
-
-COLOR_TABLE = [PaleGreen, Pink, Plum, SteelBlue, VioletRed]

@@ -1,5 +1,7 @@
 from pygame.locals import *
+
 from scene import *
+
 
 def Input(scene_obj, panning, detectPos, pos):
     mpb = pygame.mouse.get_pressed() # mouse pressed buttons
