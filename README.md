@@ -2,6 +2,7 @@
 
 Create by elbanic.(elbanic12@naver.com)
 
+</br>
 ### This software uses the following libraries & platform.
 * Python 3.x
 * PyGame 1.9.x
@@ -12,6 +13,7 @@ Create by elbanic.(elbanic12@naver.com)
 * The rotation of the planet
 * Move viewpoint
 
+</br>
 ### How to run...
 
 #### Installation of dependent libraries.
@@ -30,6 +32,7 @@ python3 main.py
 ##### Screenshot
 ![screenshot](./res/screenshot.png)
 
+</br>
 #### Following is the pygame license.
 * PyGame [Link](https://www.pygame.org/news)
 > This library is distributed under GNU LGPL version 2.1, which can be found in the file "doc/LGPL". I reserve the right to place future versions of this library under a different license. http://www.gnu.org/copyleft/lesser.html
