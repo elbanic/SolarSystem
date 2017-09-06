@@ -32,7 +32,7 @@ python3 main.py
 ```
 
 ##### Screenshot
-![screenshot](./res/screenshot.png)
+![screenshot](./res/solarsystem.gif)
 
 <br><br>
 
